@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The Cast SDK needs an AppCompat based theme -->
+    <style name="Theme.WebCaster" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#3D5AFE</item>
+        <item name="colorSecondary">#00BFA5</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vibe Video Cast</string>
+    <string name="url_hint">Search or type a web address</string>
+    <string name="videos_found">%1$d video(s) found</string>
+    <string name="no_videos">No videos detected yet. Press play on the page first.</string>
+    <string name="play_on_phone">Play on phone</string>
+    <string name="cast_to_tv">Cast to TV</string>
+    <string name="copy_link">Copy link</string>
+    <string name="not_connected">Tap the cast icon at the top to connect to a TV first.</string>
+    <string name="cast">Cast</string>
+</resources>

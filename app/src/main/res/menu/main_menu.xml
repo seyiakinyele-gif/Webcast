@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Standard Google Cast button; turns blue when connected -->
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:title="@string/cast"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_adblock"
+        android:checkable="true"
+        android:title="Ad blocker"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reload"
+        android:title="Reload"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        app:showAsAction="never" />
+</menu>
